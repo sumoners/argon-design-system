@@ -20,13 +20,13 @@
     --blue: #5e72e4;
     --indigo: #5603ad;
     --purple: #8965e0;
-    --pink: #f3a4b5;
+    --pink: #f72bb3;
     --red: #f5365c;
     --orange: #fb6340;
     --yellow: #ffd600;
     --green: #2dce89;
     --teal: #11cdef;
-    --cyan: #2bffc6;
+    --cyan: #06e1b5;
     --white: #fff;
     --gray: #8898aa;
     --gray-dark: #32325d;
@@ -689,7 +689,7 @@ code
 
     word-break: break-word; 
 
-    color: #f3a4b5;
+    color: #f72bb3;
 }
 a > code
 {
@@ -12819,7 +12819,7 @@ button.bg-purple:focus
 
 .bg-pink
 {
-    background-color: #f3a4b5 !important;
+    background-color: #f72bb3 !important;
 }
 
 a.bg-pink:hover,
@@ -12827,7 +12827,7 @@ a.bg-pink:focus,
 button.bg-pink:hover,
 button.bg-pink:focus
 {
-    background-color: #ed7790 !important;
+    background-color: #e6099c !important;
 }
 
 .bg-red
@@ -12897,7 +12897,7 @@ button.bg-teal:focus
 
 .bg-cyan
 {
-    background-color: #2bffc6 !important;
+    background-color: #06e1b5 !important;
 }
 
 a.bg-cyan:hover,
@@ -12905,7 +12905,7 @@ a.bg-cyan:focus,
 button.bg-cyan:hover,
 button.bg-cyan:focus
 {
-    background-color: #00f7b5 !important;
+    background-color: #05af8d !important;
 }
 
 .bg-white
@@ -13050,7 +13050,7 @@ button.bg-lighter:focus
 
 .bg-gradient-pink
 {
-    background: linear-gradient(87deg, #f3a4b5 0, #f3b4a4 100%) !important;
+    background: linear-gradient(87deg, #f72bb3 0, #f72b5e 100%) !important;
 }
 
 .bg-gradient-red
@@ -13080,7 +13080,7 @@ button.bg-lighter:focus
 
 .bg-gradient-cyan
 {
-    background: linear-gradient(87deg, #2bffc6 0, #2be0ff 100%) !important;
+    background: linear-gradient(87deg, #06e1b5 0, #06b2e1 100%) !important;
 }
 
 .bg-gradient-white
@@ -13375,7 +13375,7 @@ button.section-darker:focus
 
 .color-pink
 {
-    color: #f3a4b5 !important;
+    color: #f72bb3 !important;
 }
 
 .color-red
@@ -13405,7 +13405,7 @@ button.section-darker:focus
 
 .color-cyan
 {
-    color: #2bffc6 !important;
+    color: #06e1b5 !important;
 }
 
 .color-white
@@ -18725,13 +18725,13 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
 
 .input-slider--cyan .noUi-connect
 {
-    background: #2bffc6;
+    background: #06e1b5;
 }
 
 .input-slider--cyan.noUi-horizontal .noUi-handle,
 .input-slider--cyan.noUi-vertical .noUi-handle
 {
-    background-color: #2bffc6;
+    background-color: #06e1b5;
 }
 
 .input-slider--red .noUi-connect
@@ -18769,13 +18769,13 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
 
 .input-slider--pink .noUi-connect
 {
-    background: #f3a4b5;
+    background: #f72bb3;
 }
 
 .input-slider--pink.noUi-horizontal .noUi-handle,
 .input-slider--pink.noUi-vertical .noUi-handle
 {
-    background-color: #f3a4b5;
+    background-color: #f72bb3;
 }
 
 /* Disabled state */
