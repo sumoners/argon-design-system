@@ -13358,6 +13358,141 @@ button.section-darker:focus
     fill-opacity: .8;
 }
 
+.color-blue
+{
+    color: #5e72e4 !important;
+}
+
+.color-indigo
+{
+    color: #5603ad !important;
+}
+
+.color-purple
+{
+    color: #8965e0 !important;
+}
+
+.color-pink
+{
+    color: #f3a4b5 !important;
+}
+
+.color-red
+{
+    color: #f5365c !important;
+}
+
+.color-orange
+{
+    color: #fb6340 !important;
+}
+
+.color-yellow
+{
+    color: #ffd600 !important;
+}
+
+.color-green
+{
+    color: #2dce89 !important;
+}
+
+.color-teal
+{
+    color: #11cdef !important;
+}
+
+.color-cyan
+{
+    color: #2bffc6 !important;
+}
+
+.color-white
+{
+    color: #fff !important;
+}
+
+.color-gray
+{
+    color: #8898aa !important;
+}
+
+.color-gray-dark
+{
+    color: #32325d !important;
+}
+
+.color-light
+{
+    color: #ced4da !important;
+}
+
+.color-lighter
+{
+    color: #e9ecef !important;
+}
+
+.color-primary
+{
+    color: #35245c !important;
+}
+
+.color-secondary
+{
+    color: #5d5d5d !important;
+}
+
+.color-success
+{
+    color: #2dce89 !important;
+}
+
+.color-info
+{
+    color: #11cdef !important;
+}
+
+.color-warning
+{
+    color: #fb6340 !important;
+}
+
+.color-danger
+{
+    color: #f5365c !important;
+}
+
+.color-light
+{
+    color: #adb5bd !important;
+}
+
+.color-dark
+{
+    color: #212529 !important;
+}
+
+.color-default
+{
+    color: #172b4d !important;
+}
+
+.color-white
+{
+    color: #fff !important;
+}
+
+.color-neutral
+{
+    color: #fff !important;
+}
+
+.color-darker
+{
+    color: black !important;
+}
+
 .floating
 {
     animation: floating 3s ease infinite;

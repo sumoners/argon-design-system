@@ -40,3 +40,11 @@ section {
 .fill-opacity-8 {
 	fill-opacity: .8;
 }
+
+@each $color, $value in $colors {
+  @include color-variant(".color-#{$color}", $value);
+}
+
+@each $color, $value in $theme-colors {
+  @include color-variant(".color-#{$color}", $value);
+}
