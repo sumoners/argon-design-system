@@ -158,3 +158,10 @@ $value in $brand-colors {
         @include button-variant($value, $value);
     }
 }
+
+@each $color,
+$value in $brand-colors {
+    .btn-outline-#{$color} {
+        @include button-outline-variant($value, $value);
+    }
+}
