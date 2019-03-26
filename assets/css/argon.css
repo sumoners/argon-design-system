@@ -94,7 +94,7 @@ section
 body
 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 400;
     line-height: 1.5;
 
@@ -506,37 +506,37 @@ h6,
 h1,
 .h1
 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h2,
 .h2
 {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 h3,
 .h3
 {
-    font-size: 1.75rem;
+    font-size: 1.4rem;
 }
 
 h4,
 .h4
 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 h5,
 .h5
 {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 h6,
 .h6
 {
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .lead
@@ -629,7 +629,7 @@ mark,
 
 .blockquote
 {
-    font-size: 1.25rem; 
+    font-size: 1rem; 
 
     margin-bottom: 1rem;
 }
@@ -2329,13 +2329,13 @@ pre code
 
 .form-control
 {
-    font-size: 1rem;
+    font-size: .8rem;
     line-height: 1.5;
 
     display: block;
 
     width: 100%;
-    height: calc(2.75rem + 2px);
+    height: calc(2.45rem + 2px);
     padding: .625rem .75rem;
 
     transition: all .2s cubic-bezier(.68, -.55, .265, 1.55); 
@@ -2410,7 +2410,7 @@ select.form-control:focus::-ms-value
 
 .col-form-label-lg
 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1.5; 
 
     padding-top: calc(.875rem + 1px);
@@ -2419,7 +2419,7 @@ select.form-control:focus::-ms-value
 
 .col-form-label-sm
 {
-    font-size: .875rem;
+    font-size: .7rem;
     line-height: 1.5; 
 
     padding-top: calc(.25rem + 1px);
@@ -2451,10 +2451,10 @@ select.form-control:focus::-ms-value
 
 .form-control-sm
 {
-    font-size: .875rem;
+    font-size: .7rem;
     line-height: 1.5;
 
-    height: calc(1.8125rem + 2px);
+    height: calc(1.55rem + 2px);
     padding: .25rem .5rem;
 
     border-radius: .2rem;
@@ -2462,10 +2462,10 @@ select.form-control:focus::-ms-value
 
 .form-control-lg
 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1.5;
 
-    height: calc(3.625rem + 2px);
+    height: calc(3.25rem + 2px);
     padding: .875rem 1rem;
 
     border-radius: .3rem;
@@ -2902,7 +2902,7 @@ textarea.form-control
 
 .btn
 {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 600;
     line-height: 1.5;
 
@@ -3949,7 +3949,7 @@ fieldset:disabled a.btn
 .btn-lg,
 .btn-group-lg > .btn
 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1.5;
 
     padding: .875rem 1rem;
@@ -3960,7 +3960,7 @@ fieldset:disabled a.btn
 .btn-sm,
 .btn-group-sm > .btn
 {
-    font-size: .875rem;
+    font-size: .7rem;
     line-height: 1.5;
 
     padding: .25rem .5rem;
@@ -4057,7 +4057,7 @@ input[type='button'].btn-block
 
 .dropdown-menu
 {
-    font-size: 1rem;
+    font-size: .8rem;
 
     position: absolute;
     z-index: 1000;
@@ -4276,7 +4276,7 @@ input[type='button'].btn-block
 
 .dropdown-header
 {
-    font-size: .875rem;
+    font-size: .7rem;
 
     display: block;
 
@@ -4568,7 +4568,7 @@ input[type='button'].btn-block
 
 .input-group-text
 {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 400;
     line-height: 1.5;
 
@@ -4599,10 +4599,10 @@ input[type='button'].btn-block
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn
 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1.5;
 
-    height: calc(3.625rem + 2px);
+    height: calc(3.25rem + 2px);
     padding: .875rem 1rem;
 
     border-radius: .3rem;
@@ -4614,10 +4614,10 @@ input[type='button'].btn-block
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn
 {
-    font-size: .875rem;
+    font-size: .7rem;
     line-height: 1.5;
 
-    height: calc(1.8125rem + 2px);
+    height: calc(1.55rem + 2px);
     padding: .25rem .5rem;
 
     border-radius: .2rem;
@@ -4651,7 +4651,7 @@ input[type='button'].btn-block
 
     display: block;
 
-    min-height: 1.5rem;
+    min-height: 1.2rem;
     padding-left: 1.75rem;
 }
 
@@ -4703,7 +4703,7 @@ input[type='button'].btn-block
 .custom-control-label::before
 {
     position: absolute;
-    top: .125rem;
+    top: -.025rem;
     left: -1.75rem;
 
     display: block;
@@ -4724,7 +4724,7 @@ input[type='button'].btn-block
 .custom-control-label::after
 {
     position: absolute;
-    top: .125rem;
+    top: -.025rem;
     left: -1.75rem;
 
     display: block;
@@ -4802,7 +4802,7 @@ input[type='button'].btn-block
     display: inline-block;
 
     width: 100%;
-    height: calc(2.75rem + 2px);
+    height: calc(2.45rem + 2px);
     padding: .375rem 1.75rem .375rem .75rem;
 
     vertical-align: middle;
@@ -4851,7 +4851,7 @@ input[type='button'].btn-block
 {
     font-size: 75%; 
 
-    height: calc(1.8125rem + 2px);
+    height: calc(1.55rem + 2px);
     padding-top: .375rem;
     padding-bottom: .375rem;
 }
@@ -4860,7 +4860,7 @@ input[type='button'].btn-block
 {
     font-size: 125%; 
 
-    height: calc(3.625rem + 2px);
+    height: calc(3.25rem + 2px);
     padding-top: .375rem;
     padding-bottom: .375rem;
 }
@@ -4872,7 +4872,7 @@ input[type='button'].btn-block
     display: inline-block;
 
     width: 100%;
-    height: calc(2.75rem + 2px);
+    height: calc(2.45rem + 2px);
     margin-bottom: 0;
 }
 
@@ -4882,7 +4882,7 @@ input[type='button'].btn-block
     z-index: 2;
 
     width: 100%;
-    height: calc(2.75rem + 2px);
+    height: calc(2.45rem + 2px);
     margin: 0;
 
     opacity: 0;
@@ -4915,7 +4915,7 @@ input[type='button'].btn-block
     right: 0;
     left: 0;
 
-    height: calc(2.75rem + 2px);
+    height: calc(2.45rem + 2px);
     padding: .625rem .75rem;
 
     color: #8898aa;
@@ -4936,7 +4936,7 @@ input[type='button'].btn-block
 
     display: block;
 
-    height: 2.75rem;
+    height: 2.45rem;
     padding: .625rem .75rem;
 
     content: 'Browse';
@@ -5256,14 +5256,14 @@ input[type='button'].btn-block
 
 .navbar-brand
 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: inherit;
 
     display: inline-block;
 
     margin-right: 1rem;
-    padding-top: .0625rem;
-    padding-bottom: .0625rem;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
 
     white-space: nowrap;
 }
@@ -5312,7 +5312,7 @@ input[type='button'].btn-block
 
 .navbar-toggler
 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1;
 
     padding: .25rem .75rem;
@@ -6121,7 +6121,7 @@ input[type='button'].btn-block
 
 .pagination-lg .page-link
 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1.5; 
 
     padding: .75rem 1.5rem;
@@ -6141,7 +6141,7 @@ input[type='button'].btn-block
 
 .pagination-sm .page-link
 {
-    font-size: .875rem;
+    font-size: .7rem;
     line-height: 1.5; 
 
     padding: .25rem .5rem;
@@ -6409,7 +6409,7 @@ input[type='button'].btn-block
 
 .alert-dismissible
 {
-    padding-right: 4.5rem;
+    padding-right: 4.2rem;
 }
 .alert-dismissible .close
 {
@@ -6616,7 +6616,7 @@ input[type='button'].btn-block
 
 .progress
 {
-    font-size: .75rem;
+    font-size: .6rem;
 
     display: flex;
     overflow: hidden;
@@ -6985,7 +6985,7 @@ input[type='button'].btn-block
 
 .close
 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     line-height: 1;
 
@@ -7227,7 +7227,7 @@ button.close
 .tooltip
 {
     font-family: 'Montserrat', sans-serif;
-    font-size: .875rem;
+    font-size: .7rem;
     font-weight: 400;
     font-style: normal;
     line-height: 1.5;
@@ -7374,7 +7374,7 @@ button.close
 .popover
 {
     font-family: 'Montserrat', sans-serif;
-    font-size: .875rem;
+    font-size: .7rem;
     font-weight: 400;
     font-style: normal;
     line-height: 1.5;
@@ -7588,7 +7588,7 @@ button.close
 
 .popover-header
 {
-    font-size: 1rem;
+    font-size: .8rem;
 
     margin-bottom: 0;
     padding: .75rem .75rem;
@@ -14126,7 +14126,7 @@ button.section-darker:focus
 
 .alert
 {
-    font-size: .875rem;
+    font-size: .7rem;
 
     padding: 1rem 1.5rem;
 
@@ -14168,7 +14168,7 @@ button.section-darker:focus
 
 .alert-heading
 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
 
     margin-top: .15rem;
@@ -14247,7 +14247,7 @@ button.section-darker:focus
 
 .avatar-lg
 {
-    font-size: .875rem; 
+    font-size: .7rem; 
 
     width: 58px;
     height: 58px;
@@ -14255,7 +14255,7 @@ button.section-darker:focus
 
 .avatar-sm
 {
-    font-size: .875rem; 
+    font-size: .7rem; 
 
     width: 38px;
     height: 38px;
@@ -15497,7 +15497,7 @@ a.btn-icon-only
 
 .custom-checkbox .custom-control-input ~ .custom-control-label
 {
-    font-size: .875rem; 
+    font-size: .7rem; 
 
     cursor: pointer;
 }
@@ -15524,7 +15524,7 @@ a.btn-icon-only
 
 .custom-radio .custom-control-input ~ .custom-control-label
 {
-    font-size: .875rem; 
+    font-size: .7rem; 
 
     cursor: pointer;
 }
@@ -15629,7 +15629,7 @@ a.btn-icon-only
 }
 .dropdown-menu .dropdown-item
 {
-    font-size: .875rem; 
+    font-size: .7rem; 
 
     padding: .5rem 1rem;
 }
@@ -15722,7 +15722,7 @@ a.btn-icon-only
 }
 .footer .col-footer .heading
 {
-    font-size: .875rem;
+    font-size: .7rem;
     font-weight: 600;
 
     margin-bottom: 1rem; 
@@ -15758,7 +15758,7 @@ a.btn-icon-only
 }
 .footer .copyright
 {
-    font-size: .875rem;
+    font-size: .7rem;
 }
 
 .footer-dark .col-footer .heading
@@ -15802,7 +15802,7 @@ a.btn-icon-only
 
 .nav-footer .nav-link
 {
-    font-size: .875rem;
+    font-size: .7rem;
 }
 
 .nav-footer .nav-item:last-child .nav-link
@@ -15813,7 +15813,7 @@ a.btn-icon-only
 /* Form controls */
 label
 {
-    font-size: .875rem;
+    font-size: .7rem;
 }
 
 .form-control
@@ -15876,7 +15876,7 @@ textarea[resize='horizontal']
 
 .form-control-lg
 {
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .has-success,
@@ -16241,7 +16241,7 @@ textarea[resize='horizontal']
 
 .list-group-heading
 {
-    font-size: 1rem;
+    font-size: .8rem;
 
     color: #32325d;
 }
@@ -16605,7 +16605,7 @@ textarea[resize='horizontal']
 
 .nav-pills .nav-link
 {
-    font-size: .875rem;
+    font-size: .7rem;
     font-weight: 500;
 
     padding: .75rem 1rem;
@@ -16702,7 +16702,7 @@ textarea[resize='horizontal']
 
 .navbar-brand
 {
-    font-size: .875rem;
+    font-size: .7rem;
     font-size: .875rem;
     font-weight: 600;
 
@@ -17078,7 +17078,7 @@ textarea[resize='horizontal']
 .page-item .page-link,
 .page-item span
 {
-    font-size: .875rem; 
+    font-size: .7rem; 
 
     display: flex;
 
@@ -18353,7 +18353,7 @@ p
 
 .description
 {
-    font-size: .875rem;
+    font-size: .7rem;
 }
 
 .heading
@@ -18521,7 +18521,7 @@ article h5 + figure
 .datepicker table tr td,
 .datepicker table tr th
 {
-    font-size: .875rem; 
+    font-size: .7rem; 
 
     width: 36px;
     height: 36px;
@@ -19225,7 +19225,7 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
 /* Range slider value labels */
 .range-slider-value
 {
-    font-size: .75rem;
+    font-size: .6rem;
     font-weight: 500;
 
     padding: .4em .8em .3em .85em; 
